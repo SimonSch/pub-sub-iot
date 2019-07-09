@@ -28,43 +28,11 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`pub-sub-iot hello [FILE]`](#pub-sub-iot-hello-file)
+* [`pub-sub-iot login [username]`](#pub-sub-iot-hello-file)
+* [`pub-sub-iot connect [topic]`](#pub-sub-iot-hello-file)
 * [`pub-sub-iot help [COMMAND]`](#pub-sub-iot-help-command)
 
-## `pub-sub-iot hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ pub-sub-iot hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ pub-sub-iot hello
-  hello world from ./src/hello.ts!
-```
-
 _See code: [src/commands/hello.ts](https://github.com/SimonSch/pub-sub-iot/blob/v0.0.0/src/commands/hello.ts)_
-
-## `pub-sub-iot help [COMMAND]`
-
-display help for pub-sub-iot
-
-```
-USAGE
-  $ pub-sub-iot help [COMMAND]
-
-ARGUMENTS
-  COMMAND  command to show help for
-
-OPTIONS
-  --all  see all commands in CLI
-```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.0/src/commands/help.ts)_
 <!-- commandsstop -->

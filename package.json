@@ -1,6 +1,6 @@
 {
   "name": "pub-sub-iot",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Simon @SimonSch",
   "bin": {
     "pub-sub-iot": "./bin/run"
